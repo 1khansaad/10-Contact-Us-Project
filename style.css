@@ -16,22 +16,31 @@
   width: 25%;
   height: 75%;
   min-height: 400px;
+
   background: #0f3939;
+
   padding: 10px;
+
   position: relative;
+
   position: absolute;
   top: 12.5%;
   left: 10%;
+
   z-index: 1;
 }
 .contact-info h2 {
   color: #fff;
+
   margin: 0 0 20px 10px;
+
   font-size: 1.7em;
 }
 .contact-info p {
   font-size: 1.1em;
+
   color: #fff;
+
   margin: 10px;
 }
 .location {
@@ -45,26 +54,40 @@
 }
 .social {
   text-align: center;
+
   font-size: 1.5rem;
+
   position: absolute;
   bottom: 30px;
   left: 30px;
 }
 .ox {
   color: #555;
+
   cursor: pointer;
+
+  transition: 0.3s;
 }
 .location .bi:hover {
   color: black;
+
   font-size: 20px;
+
+  transition: 0.3s;
 }
 .phone .bi:hover {
   color: black;
+
   font-size: 20px;
+
+  transition: 0.3s;
 }
 .mail .bi:hover {
   color: black;
+
   font-size: 20px;
+
+  transition: 0.3s;
 }
 .social .bi-facebook:hover {
   color: #4267b2;
@@ -85,10 +108,13 @@
   width: 70%;
   min-width: 700px;
   height: 90vh;
+
   background: #fff;
+
   position: absolute;
   top: 5%;
   left: 18%;
+
   display: flex;
   justify-content: right;
 }
@@ -98,8 +124,10 @@
 }
 .content h2 {
   color: #0f3939;
+
   font-size: 1.6em;
   font-weight: 500;
+
   margin: 1em;
 }
 .form {
@@ -110,25 +138,34 @@
 .bx {
   width: 47%;
   min-width: 250px;
+
   position: relative;
+
   margin: 1%;
   padding: 1%;
 }
 .bxx {
   width: 100%;
+
   position: relative;
+
   margin: 1%;
   padding: 1%;
 }
 .content input,
 textarea {
   width: 100%;
+
   font-size: 1em;
   font-weight: 300;
+
   resize: none;
+
   color: #333;
+
   border: none;
   border-bottom: 1px solid #777;
+
   outline: none;
 }
 textarea {
@@ -151,40 +188,56 @@ textarea {
   position: absolute;
   left: 0;
   padding: 5px 0;
+
   font-size: 1.2em;
   font-weight: 300;
+
   color: #333;
+
   transition: 0.5s;
 }
 .form input:focus ~ span,
 .form textarea:focus ~ span,
 .form input:valid ~ span {
   transform: translateY(-20px);
+
   font-size: 12px;
+
   letter-spacing: 1px;
+
   color: #ff568c;
 }
 .form input[type="submit"] {
   cursor: pointer;
+
   background: #0f3959;
+
   color: #fff;
+
   border: none;
+
   width: 150px;
+
   padding: 12px 50px;
+
   transition: 0.5s;
 }
 .form input[type="submit"]:hover {
   background: #ff568c;
+
   transition: 0.5s;
 }
 @media screen and (max-width: 980px) {
   .section-two {
     width: 70%;
     height: 90vh;
+
     background: #fff;
+
     position: absolute;
     top: 5%;
     left: 12%;
+
     display: flex;
     justify-content: right;
   }
@@ -193,12 +246,17 @@ textarea {
     min-width: 250px;
     height: 75%;
     min-height: 400px;
+
     background: #0f3939;
+
     padding: 10px;
+
     position: relative;
+
     position: absolute;
     top: 12.5%;
     left: 5%;
+
     z-index: 1;
   }
 }
@@ -206,10 +264,13 @@ textarea {
   .section-two {
     width: 70%;
     height: 90vh;
+
     background: #fff;
+
     position: absolute;
     top: 5%;
     left: 8%;
+
     display: flex;
     justify-content: right;
   }
@@ -218,13 +279,16 @@ textarea {
     min-width: 250px;
     height: 75%;
     min-height: 400px;
+
     background: #0f3939;
+
     padding: 10px;
+
     position: relative;
+
     position: absolute;
     top: 12.5%;
     left: 1%;
-    z-index: 1;
   }
   .bx,
   .bxx {
